@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a,a:hover{
+  text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+/* =================== Header Part css Start ================== */
+
+nav{
+    background: #2c2c2c;
+    padding: 0 !important;
+    margin-top: 50px;
+}
+
+nav .navbar-brand{
+    padding: 0;
+    background: #323232;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    line-height: 75px;
+    position: absolute;
+    transform: skewX(-40deg);
+    color: #fff!important;
+}
+
+nav .navbar-brand img{
+    transform:skewX(40deg)
+}
+
+nav ul li a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: #fff!important;
+    text-transform: uppercase;
+    margin-left: 20px;
+    background: transparent;
+    padding: 20px 10px !important;
+    position: relative;
+    transition: .4s;
+}
+
+nav ul li a:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #e23e38;
+    width: 0%;
+    height: 3px;
+    content: "";
+    transition: .4s;
+}
+
+nav ul li a:hover{
+    background: #fff;
+    color: #222222!important;
+}
+
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+/* ============ Banner Part css Start =================== */
+
+#banner{
+    background: url(../images/banner_one.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#banner::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(114, 95, 95, 0.6);
+}
+
+#banner .banner-item{
+    position: relative;
+    z-index: 99;
+    text-align: center;
+}
+
+#banner .banner-item h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    color: #fff;
+}
+
+#banner .banner-item p{
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+#banner .banner-item a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    padding: 20px 40px;
+    background: #e23e38;
+    border-radius: 10px;
+}
