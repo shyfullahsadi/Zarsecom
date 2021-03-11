@@ -33,7 +33,7 @@ nav .navbar-brand{
     line-height: 75px;
     position: absolute;
     transform: skewX(-40deg);
-    color: #fff!important;
+    color: #e23e38!important;
 }
 
 nav .navbar-brand img{
@@ -43,7 +43,7 @@ nav .navbar-brand img{
 nav ul li a{
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
-    color: #fff!important;
+    color: #e23e38!important;
     text-transform: uppercase;
     margin-left: 20px;
     background: transparent;
@@ -74,50 +74,100 @@ nav ul li a:hover:after{
 
 /* ============ Banner Part css Start =================== */
 
-#banner{
-    background: url(../images/banner_one.jpg) no-repeat center;
+#banner {
+    background: url(../images/banner_one.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 280px;
+    padding-bottom: 280px;
     position: relative;
-    padding-top: 300px;
-    padding-bottom: 300px;
 }
 
-#banner::after{
+#banner::after {
     position: absolute;
     content: '';
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(114, 95, 95, 0.6);
+    background: rgb(17, 17, 17, 0.7);
 }
 
-#banner .banner-item{
+.banner-slider {
     position: relative;
-    z-index: 99;
-    text-align: center;
+    z-index: 999;
 }
 
-#banner .banner-item h1{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 70px;
-    color: #fff;
+/* .banner-text {
+    position: relative;
+    z-index: 999;
+} */
+
+.banner-text {
+    padding-bottom: 20px;
 }
 
-#banner .banner-item p{
+.banner-text h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.banner-text h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.banner-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     font-weight: 300;
-    font-size: 18px;
-    color: #fff;
-    margin-bottom: 50px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 0 50px;
+    padding-bottom: 50px;
 }
 
-#banner .banner-item a{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+.banner-text a {
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    color: #fff;
-    padding: 20px 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 20px 38px;
     background: #e23e38;
-    border-radius: 10px;
+    border-radius: 3px;
+    border-bottom: 3px solid #e23e38;
+}
+
+#banner ul{
+    position: absolute;
+    bottom: -190px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#banner ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+#banner ul li button{
+    width: 12px;
+    height: 12px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 0;
+    cursor: pointer;
+    outline: 0;
+}
+
+#banner ul li.slick-active button{
+    background: #e23e38;
+    border-color: #e23e38;
 }

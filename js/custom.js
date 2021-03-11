@@ -1,9 +1,10 @@
-$('#banner-part').slick({
+$('.banner-slider').slick({
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-   
+    autoplay:true
+  
   });
