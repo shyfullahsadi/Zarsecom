@@ -204,3 +204,41 @@ nav ul li a:hover:after{
     background: #e23e38;
     border-color: #e23e38;
 }
+
+/* ===================== Features Part Start ======================== */
+
+.features-head{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.features-head h2{
+    color: #e23e38;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.features_item{
+    margin-bottom: 50px;
+}
+
+.card {
+	border: 1px solid #e23e38;
+    margin-bottom: 30px;
+}
+
+.card a{
+    background: #e23e38;
+}
+
+.card h5{
+    font-weight: 900;
+}
+
+.card h6{
+    margin-bottom: 20px;
+}
+
+
+
+
