@@ -1,53 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
 }
 
-a,a:hover{
-  text-decoration: none;
+a,
+a:hover {
+    text-decoration: none;
 }
 
-ul,ol{
+ul,
+ol {
     list-style-type: none;
 }
 
-img{
+img {
     vertical-align: middle;
 }
 
 /* ====================== Header Part Start ===================== */
 
-#search{
+#search {
     margin-top: 50px;
     background: #2c2c2c;
 }
 
 #search .form-control {
-	display: block;
-	width: 100%;
-	padding: .375rem .75rem;
-	font-size: 1rem;
-	font-weight: 400;
-	line-height: 1.5;
-	color: #212529;
-	background-color: #fff;
-	background-clip: padding-box;
-	border: 2px solid #e23e38;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	border-radius: .25rem;
-	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: 2px solid #e23e38;
 }
 
-#search .btn i{
+#search .btn i {
     color: #fff;
     font-size: 26px;
 
 }
 
-#search .btn i:hover{
+.btn{
+    background: transparent;
+}
+
+#search .btn i:hover {
     color: #e23e38;
 }
 
@@ -55,13 +47,13 @@ img{
 
 /* =================== Navbar Part css Start ================== */
 
-nav{
+nav {
     background: #2c2c2c;
     padding: 0 !important;
     margin-top: 50px;
 }
 
-nav .navbar-brand{
+nav .navbar-brand {
     padding: 0;
     background: #323232;
     width: 200px;
@@ -70,17 +62,17 @@ nav .navbar-brand{
     line-height: 75px;
     position: absolute;
     transform: skewX(-40deg);
-    color: #e23e38!important;
+    color: #e23e38 !important;
 }
 
-nav .navbar-brand img{
-    transform:skewX(40deg)
+nav .navbar-brand img {
+    transform: skewX(40deg)
 }
 
-nav ul li a{
+nav ul li a {
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
-    color: #e23e38!important;
+    color: #e23e38 !important;
     text-transform: uppercase;
     margin-left: 20px;
     background: transparent;
@@ -89,7 +81,7 @@ nav ul li a{
     transition: .4s;
 }
 
-nav ul li a:after{
+nav ul li a:after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -100,12 +92,12 @@ nav ul li a:after{
     transition: .4s;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     background: #fff;
-    color: #222222!important;
+    color: #222222 !important;
 }
 
-nav ul li a:hover:after{
+nav ul li a:hover:after {
     width: 100%;
 }
 
@@ -133,7 +125,7 @@ nav ul li a:hover:after{
 
 .banner-slider {
     position: relative;
-    z-index: 999;
+    z-index: 99;
 }
 
 
@@ -142,21 +134,18 @@ nav ul li a:hover:after{
 }
 
 .banner-text h2 {
-    font-family: 'Raleway', sans-serif;
     font-size: 36px;
     font-weight: 500;
     color: #ffffff;
 }
 
 .banner-text h1 {
-    font-family: 'Raleway', sans-serif;
     font-size: 52px;
     font-weight: 700;
     color: #ffffff;
 }
 
 .banner-text p {
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -166,7 +155,6 @@ nav ul li a:hover:after{
 }
 
 .banner-text a {
-    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -177,19 +165,19 @@ nav ul li a:hover:after{
     border-bottom: 3px solid #e23e38;
 }
 
-#banner ul{
+#banner ul {
     position: absolute;
     bottom: -190px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-#banner ul li{
+#banner ul li {
     display: inline-block;
     margin: 10px;
 }
 
-#banner ul li button{
+#banner ul li button {
     width: 12px;
     height: 12px;
     border: 1px solid #fff;
@@ -200,45 +188,109 @@ nav ul li a:hover:after{
     outline: 0;
 }
 
-#banner ul li.slick-active button{
+#banner ul li.slick-active button {
     background: #e23e38;
     border-color: #e23e38;
 }
 
 /* ===================== Features Part Start ======================== */
 
-.features-head{
+.features-head {
     margin-top: 80px;
     margin-bottom: 30px;
 }
 
-.features-head h2{
+.features-head h2 {
     color: #e23e38;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
 
-.features_item{
+.features_item {
     margin-bottom: 50px;
 }
 
 .card {
-	border: 1px solid #e23e38;
+    border: 1px solid #e23e38;
     margin-bottom: 30px;
 }
 
-.card a{
+.card a {
     background: #e23e38;
+    color: #222;
 }
 
-.card h5{
+.card h5 {
     font-weight: 900;
 }
 
-.card h6{
+.card h6 {
     margin-bottom: 20px;
 }
 
+/* =============== On Sales css Start ================ */
+
+.on_sale_head h2{
+    color: #e23e38;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.sale-img{
+    margin-right: 5px;
+}
 
 
+.sale-img img{
+    position: relative;
+}
+
+
+.sale_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(226, 62, 56,0.6);
+}
+
+.sale_overlay_text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sale_price span{
+    margin-right: 10px;
+}
+
+.discount::after {
+	position: absolute;
+	content: '';
+	top: 47px;
+	left: 87px;
+	width: 44px;
+	height: 2px;
+	background: #222;
+}
+
+.sale_overlay_text h6{
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.sale_overlay_text p{
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.sale_overlay_text a{
+    background: #fff;
+    color: #e23e38;
+}
 
