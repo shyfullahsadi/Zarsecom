@@ -15,10 +15,9 @@ $('.banner-slider').slick({
   $('.discount_slider').slick({
     dots: false,
     infinite: true,
-    speed: 300,
+    speed: 1000,
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: false,
     autoplay:true,
-  
   });

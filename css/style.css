@@ -35,7 +35,7 @@ img {
 
 }
 
-.btn{
+#search .btn{
     background: transparent;
 }
 
@@ -284,5 +284,38 @@ nav ul li a:hover:after {
 .sale_overlay_text a{
     background: #e23e38;
     color: #fff;
+}
+
+/* ====================== Footer Part css ================== */
+
+#footer{
+    background: black;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+#footer .social ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#footer .social ul li a i{
+    color: #fff;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+#footer .social ul li a i:hover{
+    color: #e23e38;
+}
+
+#footer .social{
+    text-align: right;
+}
+
+#footer .btn{
+    background: #e23e38;
+    color: #ffffff;
+    margin-left: 5px;
 }
 
