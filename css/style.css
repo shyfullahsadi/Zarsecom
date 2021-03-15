@@ -230,35 +230,27 @@ nav ul li a:hover:after {
 
 /* =============== On Sales css Start ================ */
 
+#on_sale{
+    margin-bottom: 80px;
+}
+
 .on_sale_head h2{
     color: #e23e38;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
+
 
 .sale-img{
-    margin-right: 5px;
-}
-
-
-.sale-img img{
     position: relative;
-}
-
-
-.sale_overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(226, 62, 56,0.6);
 }
 
 .sale_overlay_text{
-    position: relative;
+    position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .sale_price span{
@@ -268,29 +260,29 @@ nav ul li a:hover:after {
 .discount::after {
 	position: absolute;
 	content: '';
-	top: 47px;
-	left: 87px;
-	width: 44px;
+	top: 46px;
+	left: 10px;
+	width: 41px;
 	height: 2px;
-	background: #222;
+	background: #fff;
 }
 
 .sale_overlay_text h6{
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    font-size: 22px;
+    color: #222;
+    font-size: 20px;
 }
 
 .sale_overlay_text p{
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
-    color: #ffffff;
+    color: #222;
     font-size: 18px;
 }
 
 .sale_overlay_text a{
-    background: #fff;
-    color: #e23e38;
+    background: #e23e38;
+    color: #fff;
 }
 
