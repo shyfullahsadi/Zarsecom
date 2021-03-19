@@ -343,3 +343,36 @@ nav ul li a:hover:after {
     color: #ffffff;
 }
 
+/* ================= Sign In css Start ================= */
+
+#_signIn{
+    background: url(../images/banner_one.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 280px;
+    padding-bottom: 280px;
+    position: relative;
+}
+
+#_signIn::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(17, 17, 17, 0.7);
+}
+
+._signInForm{
+    position: relative;
+    z-index: 99;
+}
+
+#_signIn ._button a {
+    background: #e23e38;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+}
