@@ -415,3 +415,69 @@ nav ul li a:hover:after {
 	height: 2px;
 	background: #fff;
 }
+
+/* ================== Cart Details part css ==================== */
+
+#_cartDetails{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #ddd;
+}
+
+#_cartDetails .productDetails h2{
+    color: #222;
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#_cartDetails .productDetails h3{
+    color: #222;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#_cartDetails .productDetails h4 {
+    color: #222;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+#_cartDetails .productDetails h5 {
+    color: #222;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#_cartDetails .productDetails span {
+    color: #222;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+#_cartDetails .custom-select {
+	background: #fff;
+}
+
+#_cartDetails .custom-select:focus {
+	border-color: #e23e38;
+}
+
+#_cartDetails .input-group{
+    width: 30%;
+}
+
+.product_shipping{
+    margin-top: 20px;
+}
+
+#_cartDetails a {
+    background: #e23e38;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 2px;
+    font-size: 14px;
+}
